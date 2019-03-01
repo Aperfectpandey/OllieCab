@@ -1,0 +1,54 @@
+.container{width: 1200px;background-color:black; 
+	height: auto;margin-left: 65px;}
+.wrapper{
+    margin:auto;
+    width:1150px;
+    height: auto;
+}
+.header{
+        background-color: chartreuse;color: white;text-align: center;width:1150px;height:auto;padding:10px;float:left; }
+.logo{    width: 135px;
+    height: 85px;
+    float: left;margin-left: -2px;
+    margin-top: -3px;}
+.header a{float:right;}
+
+ .nav{      background-color: blue; height:50px;width:1150px;float:left;padding:10px;}
+.o{
+height:auto;width:1140px;background-color: pink;}
+.o ul{list-style:none;float:left;}
+.o ul li{display:inline-block;font-size:25px;}
+ a {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 5px;
+  }
+a:hover {
+    background-color: gray;}
+
+.main{width:1000px;float:none;padding: 10px;}
+.main img{padding-left: 0px;
+  margin-left: -9px;}
+.aside{background-color: aqua;width:1150px;height: auto;margin-top: -30px;}
+.footer{  height: 50px;background-color:yellow;color:red;text-align:center;margin-top: 2px;
+    padding-bottom: 8px;}
+.foot{
+height:30px;width:1150px;
+    margin-top: -3px;
+    padding-bottom: 7px;}
+ul{position:absolute;overflow:hidden;    padding: 3px;
+    margin: 9px;list-style: none;}
+li {
+  float: left;
+}
+
+ a {
+  display: block;
+  color:red;
+  text-align: center;
+  padding: 6px;
+  }
+li a:hover {
+  background-color: gray;
+}

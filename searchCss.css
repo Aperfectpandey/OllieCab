@@ -1,0 +1,56 @@
+.container{width: 1200px;background-color:black; 
+	height: auto;margin-left: 65px;}
+.wrapper{
+    margin:auto;
+    width:1150px;
+    height: auto;
+}
+.header{
+        background-color: chartreuse;color: white;text-align: center;width:1150px;height:auto;padding:10px;float:left; }
+.logo{    width: 135px;
+    height: 85px;
+    float: left;margin-left: -2px;
+    margin-top: -3px;}
+
+ .nav{      background-color: blue; height:30px;width:1150px;float:left;padding:10px;}
+.o{
+height:30px;width:1120px;}
+.lis{
+height:30px;width:1120px;
+    margin-top: -3px;
+    padding-bottom: 7px;}
+
+ul{position:absolute;overflow:hidden;
+  background-color: pink;list-style: none;}
+ li {
+  float: left;
+}
+
+ a {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 5px;
+  }
+li a:hover {
+  background-color: gray;
+}
+.main{width:1000px;float:none;padding: 10px;}
+.main img{padding-left: 0px;
+  margin-left: -9px;}
+.aside{background-color: aqua;width:1150px;height:60px;margin-top: 5px;}
+.aside h4{color:white;font-size:20px;text-align:center;margin-top: -14px;}
+.aside p{color:white;font-size: 10px;}
+.selecton{margin-top:-74px;}
+
+.pi{color:blueviolet;font-size:20px;text-align:center;margin-top: -20px;}
+
+.pi table, th, td {
+  border: 1px solid black;
+ border-collapse: collapse;
+  padding: 5px;
+  text-align: left;    
+}
+th:hover {
+    background-color:azure;}
+tr:active{background-color: brown;}

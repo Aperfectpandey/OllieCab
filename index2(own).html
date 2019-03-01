@@ -1,0 +1,67 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>Ollie Bike Sharing</title>
+  <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="main2(own).css">
+
+</head>
+<body>
+  <div class="container">
+       <div class="wrapper">
+<div class="header">
+
+<div class="logo"><img src="C:\Users\Hp\Desktop\web development practice\ollie cab share(my)\images\PANDEY.jpg"/></div>
+
+<h1>OLLIE CAB</h1><a href="login.html">login here</a></div>
+  
+<div class="nav">
+  
+  <div class="o">
+<ul >
+     <li><a href="home.html">Home</a></li>
+  <li><a href="sign_up.html">sign up </a></li>
+  <li><a href="search.html">search bikes</a></li>
+  <li><a href="RESERVE-BIKES.html">reserve bikes</a></li>
+  <li><a href="about.html">About</a></li>
+    
+</ul></div>        
+</div>
+   
+ <div class="main">
+ <img src="C:\Users\Hp\Desktop\web development practice\ollie cab share(my)\images\uberPOOL_March12.png"></div>
+     <div class="aside">
+  <h3>Affiliated to cargo.</h3><h4>
+<p>Click the button to get your coordinates.</p>
+
+<button onclick="getLocation()">Try It</button>
+
+<p id="demo"></p>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script></h4>
+  <p>here work of zoom car takes place in different cities.</p>
+  <p>Here is a list of cities where you can find us,<a href="cities.html">list</a>of cities where you can find us. </p>
+  <video width="600" height="300" controls><source src="C:\Users\Hp\Desktop\web development practice\ollie cab share(my)\output_free.mp4"></video></div>
+      
+      <div class="footer">copyright&copy;2018
+      <ul class="foot"><li><a href="notices">Notice</a></li><li><a href="terms">terms condition</a></li></ul></div>
+      </div>
+    </div>   
+ </body>
+</html>

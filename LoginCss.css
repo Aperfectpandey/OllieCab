@@ -1,0 +1,32 @@
+.container{width: 1200px;background-color:black; 
+	height: 100%;}
+.wrapper{
+    margin:auto;
+    width:1150px;
+    height: 100%;
+}
+.header{
+        background-color: chartreuse;color: white;text-align: center;width:1150px;height:auto;padding:12px;}
+.logo{    width: 135px;
+    height: 85px;
+    float: left;margin-left: -2px;
+    margin-top: -3px;}
+.main{width:1150px;height:auto;margin-top: 1px;}
+.left{    width: 585px;
+    height: 184px;
+    float: left;
+    /*position: relative;*/
+    background-color: aqua;}
+.right{    left: 620px;
+    width: 585px;
+    height: 184px;
+   display: inline-block;
+     position: absolute;
+background-color: brown;}
+.vl{border-left: 5px solid red;
+     height: 183px;
+    position: absolute;
+    left: 623px;
+    margin-left: -8px;
+    margin-top:167px;
+  top:0;}

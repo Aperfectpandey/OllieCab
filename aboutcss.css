@@ -1,0 +1,31 @@
+.container{width: 1200px;background-color:black; 
+	height: auto;margin-left: 65px;}
+.wrapper{
+    margin:auto;
+    width:1150px;
+    height: auto;
+}
+.header{
+        background-color: chartreuse;color: white;text-align: center;width:1150px;height:auto;padding:12px;}
+.logo{    width: 135px;
+    height: 85px;
+    float: left;margin-left: -2px;
+    margin-top: -3px;}
+
+ .nav{      background-color: blue; height: 50px;width:1150px;padding:12px;}
+.o{
+height:auto;width:1140px;background-color: pink;}
+.o ul{list-style:none;float:left;}
+.o ul li{display:inline-block;font-size:25px;}
+ a {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 5px;
+  }
+a:hover {
+  background-color: gray;
+}
+.main{width:1150px;    margin-top: -2px;}
+h4{color:white;font-size:20px;text-align:center;}
+p{color:white;font-size:20px;text-align:center;}
